@@ -19,6 +19,7 @@ const server = http.createServer((req,res)=>{
     }
 });
 
+console.log(req.url);
 
 server.listen(PORT, hostname, ()=>{
     console.log(`server is working `)
